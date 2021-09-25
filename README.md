@@ -5,6 +5,7 @@ Bộ Sưu tập các Code/Technique/Shader hữu ích
 
 1. Circle Transition (Shader): https://github.com/hanthuyen8/MyCollection/tree/main/Assets/Collections/Shaders/CircleTransition
 2. Toon Water (Shader): https://github.com/hanthuyen8/MyCollection/tree/main/Assets/Collections/Shaders/ToonWater
+3. Sprite Deintegrate (Particle): https://github.com/hanthuyen8/MyCollection/tree/main/Assets/Collections/ParticleSystems/SpriteDisintegrate
 
 ## Các file Shader nhỏ để tham khảo:
 1. Bill Board: https://github.com/hanthuyen8/MyCollection/blob/main/Assets/Collections/Shaders/ExampleShaders/BillBoard.shader
