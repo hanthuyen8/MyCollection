@@ -1,22 +1,25 @@
 using UnityEngine;
 
-public class CameraDepthTextureMode : MonoBehaviour 
+namespace Collections.Shaders.ToonWater.Scripts
 {
-    [SerializeField]
-    DepthTextureMode depthTextureMode;
-
-    private void OnValidate()
+    public class CameraDepthTextureMode : MonoBehaviour 
     {
-        SetCameraDepthTextureMode();
-    }
+        [SerializeField]
+        DepthTextureMode depthTextureMode;
 
-    private void Awake()
-    {
-        SetCameraDepthTextureMode();
-    }
+        private void OnValidate()
+        {
+            SetCameraDepthTextureMode();
+        }
 
-    private void SetCameraDepthTextureMode()
-    {
-        GetComponent<Camera>().depthTextureMode = depthTextureMode;
+        private void Awake()
+        {
+            SetCameraDepthTextureMode();
+        }
+
+        private void SetCameraDepthTextureMode()
+        {
+            GetComponent<Camera>().depthTextureMode = depthTextureMode;
+        }
     }
 }
